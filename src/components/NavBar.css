@@ -1,0 +1,30 @@
+.NavbarItems{
+    background: linear-gradient(90deg, rgb(168, 90, 175) 0%, rgba(72,65,253,1) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin: 2rem;
+}
+
+ul a{
+    color: aliceblue;
+    text-decoration: none;
+}
